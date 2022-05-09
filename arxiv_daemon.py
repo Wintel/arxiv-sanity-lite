@@ -30,7 +30,7 @@ if __name__ == '__main__':
     """
 
     # query string of papers to look for
-    q = 'cat:cs.CV+OR+cat:cs.LG+OR+cat:cs.CL+OR+cat:cs.AI+OR+cat:cs.NE+OR+cat:cs.RO'
+    q = 'cat:cs.AR+OR+cat:cs.CR+OR+cat:cs.DC+OR+cat:cs.OS+OR+cat:cs.PL+OR+cat:cs.PF+OR+cat:cs.NI'
 
     pdb = get_papers_db(flag='c')
     mdb = get_metas_db(flag='c')
